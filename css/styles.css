@@ -3,3 +3,70 @@ h1  {
     color: darkseagreen;
     border: 1px solid black;
 }
+
+.btn {
+    border: 1px solid black !important;
+    background-color: white !important;
+    color: black !important;
+    padding: 6px 20px !important;
+    font-size: 15px !important;
+    cursor: pointer !important;
+}
+
+/* Green */
+.success {
+    border-color: #4CAF50 !important;
+    color: green !important;
+}
+
+.success:hover {
+    background-color: #4CAF50 !important;
+    color: white !important;
+}
+
+/* Blue */
+.info {
+    border-color: #2196F3 !important;
+    color: dodgerblue !important;
+}
+
+.info:hover {
+    background: #2196F3 !important;
+    color: white !important;
+}
+
+/* Orange */
+.warning {
+    border-color: #ff9800 !important;
+    color: orange !important;
+}
+
+.warning:hover {
+    background: #ff9800 !important;
+    color: white !important;
+}
+
+/* Red */
+.danger {
+    border-color: #f44336 !important;
+    color: red !important;
+}
+
+.danger:hover {
+    background: #f44336 !important;
+    color: white !important;
+}
+
+/* Gray */
+.default {
+    border-color: #e7e7e7 !important;
+    color: black !important;
+}
+
+.default:hover {
+    background: #e7e7e7 !important;
+}
+
+.btn {
+    border-radius: 5px !important;
+}
